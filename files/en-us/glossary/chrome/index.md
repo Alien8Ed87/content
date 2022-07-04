@@ -12,3 +12,5 @@ In a browser, the chrome is any visible aspect of a browser aside from the webpa
 ## See also
 
 - [Browser and GUI Chrome](https://www.nngroup.com/articles/browser-and-gui-chrome/)
+const { BrowserWindow } = require('electron')
+const win = new BrowserWindow({ frame: false })
